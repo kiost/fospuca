@@ -1,0 +1,14 @@
+{
+    "name": "sisinventario/sistema",
+    "description": "Sistema de inventario para pruebas en clases",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.18",
+        "tecnickcom/tcpdf": "^6.8",
+        "twbs/bootstrap": "5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
